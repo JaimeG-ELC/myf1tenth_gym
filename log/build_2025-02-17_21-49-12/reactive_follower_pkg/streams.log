@@ -1,0 +1,33 @@
+[0.964s] Invoking command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg -- -j2 -l2
+[1.475s] [35m[1mScanning dependencies of target reactive_follower_node[0m
+[1.573s] [ 33%] [32mBuilding CXX object CMakeFiles/reactive_follower_node.dir/src/reactive_follower_node.cpp.o[0m
+[20.376s] [ 66%] [32m[1mLinking CXX executable reactive_follower_node[0m
+[21.167s] [100%] Built target reactive_follower_node
+[21.862s] Invoked command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg -- -j2 -l2
+[21.947s] Invoking command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg
+[22.021s] -- Install configuration: ""
+[22.029s] -- Installing: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/reactive_follower_pkg/reactive_follower_node
+[22.050s] -- Set runtime path of "/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/reactive_follower_pkg/reactive_follower_node" to ""
+[22.053s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/include/reactive_follower_pkg
+[22.055s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/include/reactive_follower_pkg/reactive_follower_pkg
+[22.058s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/include/reactive_follower_pkg/reactive_follower_pkg/reactive_follower_node.hpp
+[22.059s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/
+[22.065s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg//reactive_follower.launch.py
+[22.067s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/
+[22.068s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg//reactive_follower.yaml
+[22.069s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/ament_index/resource_index/package_run_dependencies/reactive_follower_pkg
+[22.075s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/ament_index/resource_index/parent_prefix_path/reactive_follower_pkg
+[22.081s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/ament_prefix_path.sh
+[22.081s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/ament_prefix_path.dsv
+[22.081s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/path.sh
+[22.081s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/path.dsv
+[22.087s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.bash
+[22.089s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.sh
+[22.089s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.zsh
+[22.089s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.dsv
+[22.089s] -- Installing: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.dsv
+[22.090s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/ament_index/resource_index/packages/reactive_follower_pkg
+[22.090s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/cmake/reactive_follower_pkgConfig.cmake
+[22.090s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/cmake/reactive_follower_pkgConfig-version.cmake
+[22.090s] -- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.xml
+[22.108s] Invoked command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg

@@ -1,0 +1,4 @@
+source;share/reactive_follower_pkg/local_setup.bash
+source;share/reactive_follower_pkg/local_setup.dsv
+source;share/reactive_follower_pkg/local_setup.sh
+source;share/reactive_follower_pkg/local_setup.zsh

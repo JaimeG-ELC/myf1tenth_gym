@@ -1,0 +1,188 @@
+[0.000000] (-) TimerEvent: {}
+[0.000534] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.001503] (reactive_follower_pkg) JobQueued: {'identifier': 'reactive_follower_pkg', 'dependencies': OrderedDict()}
+[0.001605] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.020789] (reactive_follower_pkg) JobStarted: {'identifier': 'reactive_follower_pkg'}
+[0.185857] (-) TimerEvent: {}
+[0.287503] (-) TimerEvent: {}
+[0.401378] (-) TimerEvent: {}
+[0.502409] (-) TimerEvent: {}
+[0.603262] (-) TimerEvent: {}
+[0.709520] (-) TimerEvent: {}
+[0.715855] (reactive_follower_pkg) JobProgress: {'identifier': 'reactive_follower_pkg', 'progress': 'cmake'}
+[0.731641] (reactive_follower_pkg) JobProgress: {'identifier': 'reactive_follower_pkg', 'progress': 'build'}
+[0.732506] (reactive_follower_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg', '--', '-j2', '-l2'], 'cwd': '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jaime'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1328'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jaime'), ('OLDPWD', '/home/jaime/Desktop/f1tenth/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '966'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a6cdb2af6a7fb383041c646d67a9e2d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jaime/Desktop/f1tenth/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jaime'), ('JOURNAL_STREAM', '8:29275'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jaime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jaime-VirtualBox:@/tmp/.ICE-unix/1457,unix/jaime-VirtualBox:/tmp/.ICE-unix/1457'), ('INVOCATION_ID', '4cb1d512919a422fbdf903da5321f636'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d911ca5d_2973_46db_ba4e_65e9c0a6cf1e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a6cdb2af6a7fb383041c646d67a9e2d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.810193] (-) TimerEvent: {}
+[0.911104] (-) TimerEvent: {}
+[0.925929] (reactive_follower_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target reactive_follower_node\x1b[0m\n'}
+[1.012691] (-) TimerEvent: {}
+[1.080935] (reactive_follower_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/reactive_follower_node.dir/src/reactive_follower_node.cpp.o\x1b[0m\n'}
+[1.112901] (-) TimerEvent: {}
+[1.288255] (-) TimerEvent: {}
+[1.396243] (-) TimerEvent: {}
+[1.562483] (-) TimerEvent: {}
+[1.906144] (-) TimerEvent: {}
+[1.927554] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jaime/Desktop/f1tenth/sim_ws/src/f1tenth_gym_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jaime', 'LC_TIME': 'es_ES.UTF-8', 'SSH_AGENT_PID': '1328', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jaime', 'OLDPWD': '/home/jaime/Desktop/f1tenth/sim_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'es_ES.UTF-8', 'MANAGERPID': '966', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a6cdb2af6a7fb383041c646d67a9e2d3', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jaime/Desktop/f1tenth/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jaime', 'JOURNAL_STREAM': '8:29275', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jaime', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/jaime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/jaime-VirtualBox:@/tmp/.ICE-unix/1457,unix/jaime-VirtualBox:/tmp/.ICE-unix/1457', 'INVOCATION_ID': '4cb1d512919a422fbdf903da5321f636', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'es_ES.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d911ca5d_2973_46db_ba4e_65e9c0a6cf1e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.73', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a6cdb2af6a7fb383041c646d67a9e2d3', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'LC_PAPER': 'es_ES.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg'}, 'shell': False}
+[2.264432] (-) TimerEvent: {}
+[2.376907] (-) TimerEvent: {}
+[2.479770] (-) TimerEvent: {}
+[2.537033] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[2.540829] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[2.544051] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[2.546572] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[2.551835] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[2.569850] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[2.580105] (-) TimerEvent: {}
+[2.683368] (-) TimerEvent: {}
+[2.701735] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.705044] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[2.720186] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[2.720507] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[2.723452] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[2.734863] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[2.739335] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[2.740289] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.743705] (f1tenth_gym_ros) StdoutLine: {'line': b"removing '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.758935] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[2.773520] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[2.784779] (-) TimerEvent: {}
+[2.818619] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[2.833007] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[2.887187] (-) TimerEvent: {}
+[2.923660] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[2.990497] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[2.992192] (-) TimerEvent: {}
+[3.092713] (-) TimerEvent: {}
+[3.194914] (-) TimerEvent: {}
+[3.301731] (-) TimerEvent: {}
+[3.402350] (-) TimerEvent: {}
+[3.502814] (-) TimerEvent: {}
+[3.613790] (-) TimerEvent: {}
+[3.717366] (-) TimerEvent: {}
+[3.819487] (-) TimerEvent: {}
+[3.920306] (-) TimerEvent: {}
+[4.021696] (-) TimerEvent: {}
+[4.122415] (-) TimerEvent: {}
+[4.222954] (-) TimerEvent: {}
+[4.336644] (-) TimerEvent: {}
+[4.438145] (-) TimerEvent: {}
+[4.619064] (-) TimerEvent: {}
+[4.744267] (-) TimerEvent: {}
+[4.846465] (-) TimerEvent: {}
+[4.952330] (-) TimerEvent: {}
+[5.122816] (-) TimerEvent: {}
+[5.224050] (-) TimerEvent: {}
+[5.376167] (-) TimerEvent: {}
+[5.502379] (-) TimerEvent: {}
+[5.605583] (-) TimerEvent: {}
+[5.706158] (-) TimerEvent: {}
+[5.809495] (-) TimerEvent: {}
+[5.876546] (reactive_follower_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg/src/reactive_follower_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksize_t ReactiveFollowerNode::find_best_point(const std::vector<float>&, size_t, size_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.876975] (reactive_follower_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg/src/reactive_follower_node.cpp:112:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kranges\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[5.877138] (reactive_follower_pkg) StderrLine: {'line': b'  112 | size_t ReactiveFollowerNode::find_best_point(\x1b[01;35m\x1b[Kconst std::vector<float> &ranges\x1b[m\x1b[K, size_t gap_start, size_t gap_end) {\n'}
+[5.877291] (reactive_follower_pkg) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.910092] (-) TimerEvent: {}
+[6.013007] (-) TimerEvent: {}
+[6.117913] (-) TimerEvent: {}
+[6.222223] (-) TimerEvent: {}
+[6.324372] (-) TimerEvent: {}
+[6.426898] (-) TimerEvent: {}
+[6.531239] (-) TimerEvent: {}
+[6.634149] (-) TimerEvent: {}
+[6.734873] (-) TimerEvent: {}
+[6.836534] (-) TimerEvent: {}
+[6.938440] (-) TimerEvent: {}
+[7.119169] (-) TimerEvent: {}
+[7.226400] (-) TimerEvent: {}
+[7.331871] (-) TimerEvent: {}
+[7.433781] (-) TimerEvent: {}
+[7.535899] (-) TimerEvent: {}
+[7.653020] (-) TimerEvent: {}
+[7.759400] (-) TimerEvent: {}
+[7.868057] (-) TimerEvent: {}
+[7.979337] (-) TimerEvent: {}
+[8.089237] (-) TimerEvent: {}
+[8.190590] (-) TimerEvent: {}
+[8.293646] (-) TimerEvent: {}
+[8.395583] (-) TimerEvent: {}
+[8.496718] (-) TimerEvent: {}
+[8.599493] (-) TimerEvent: {}
+[8.708784] (-) TimerEvent: {}
+[8.811779] (-) TimerEvent: {}
+[8.924358] (-) TimerEvent: {}
+[9.025901] (-) TimerEvent: {}
+[9.126782] (-) TimerEvent: {}
+[9.227835] (-) TimerEvent: {}
+[9.328790] (-) TimerEvent: {}
+[9.436380] (-) TimerEvent: {}
+[9.541606] (-) TimerEvent: {}
+[9.643238] (-) TimerEvent: {}
+[9.744155] (-) TimerEvent: {}
+[9.845006] (-) TimerEvent: {}
+[9.951494] (-) TimerEvent: {}
+[10.052652] (-) TimerEvent: {}
+[10.153527] (-) TimerEvent: {}
+[10.254685] (-) TimerEvent: {}
+[10.363763] (-) TimerEvent: {}
+[10.466240] (-) TimerEvent: {}
+[10.567491] (-) TimerEvent: {}
+[10.670087] (-) TimerEvent: {}
+[10.771726] (-) TimerEvent: {}
+[10.873050] (-) TimerEvent: {}
+[10.979124] (-) TimerEvent: {}
+[11.220077] (-) TimerEvent: {}
+[11.392008] (-) TimerEvent: {}
+[12.392648] (-) TimerEvent: {}
+[12.795020] (-) TimerEvent: {}
+[12.906567] (-) TimerEvent: {}
+[13.007640] (-) TimerEvent: {}
+[13.400322] (-) TimerEvent: {}
+[13.506036] (-) TimerEvent: {}
+[13.982072] (-) TimerEvent: {}
+[14.106676] (-) TimerEvent: {}
+[14.207913] (-) TimerEvent: {}
+[14.393677] (-) TimerEvent: {}
+[14.509694] (-) TimerEvent: {}
+[14.682537] (-) TimerEvent: {}
+[14.783859] (-) TimerEvent: {}
+[14.842802] (reactive_follower_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable reactive_follower_node\x1b[0m\n'}
+[14.884121] (-) TimerEvent: {}
+[14.984819] (-) TimerEvent: {}
+[15.250693] (-) TimerEvent: {}
+[15.353325] (-) TimerEvent: {}
+[15.460411] (-) TimerEvent: {}
+[15.562156] (-) TimerEvent: {}
+[15.582900] (reactive_follower_pkg) StdoutLine: {'line': b'[100%] Built target reactive_follower_node\n'}
+[15.622350] (reactive_follower_pkg) CommandEnded: {'returncode': 0}
+[15.626747] (reactive_follower_pkg) JobProgress: {'identifier': 'reactive_follower_pkg', 'progress': 'install'}
+[15.663556] (reactive_follower_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg'], 'cwd': '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jaime'), ('LC_TIME', 'es_ES.UTF-8'), ('SSH_AGENT_PID', '1328'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/jaime'), ('OLDPWD', '/home/jaime/Desktop/f1tenth/sim_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_ES.UTF-8'), ('MANAGERPID', '966'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a6cdb2af6a7fb383041c646d67a9e2d3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/jaime/Desktop/f1tenth/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jaime'), ('JOURNAL_STREAM', '8:29275'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jaime'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/jaime/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/jaime-VirtualBox:@/tmp/.ICE-unix/1457,unix/jaime-VirtualBox:/tmp/.ICE-unix/1457'), ('INVOCATION_ID', '4cb1d512919a422fbdf903da5321f636'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_ES.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d911ca5d_2973_46db_ba4e_65e9c0a6cf1e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'es_ES.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.73'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_ES.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_ES.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'es_ES.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a6cdb2af6a7fb383041c646d67a9e2d3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_ES.UTF-8'), ('LC_PAPER', 'es_ES.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[15.667202] (-) TimerEvent: {}
+[15.699348] (reactive_follower_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.705866] (reactive_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/reactive_follower_pkg/reactive_follower_node\n'}
+[15.726764] (reactive_follower_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/reactive_follower_pkg/reactive_follower_node" to ""\n'}
+[15.727102] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/include/reactive_follower_pkg\n'}
+[15.727185] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/include/reactive_follower_pkg/reactive_follower_pkg\n'}
+[15.727302] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/include/reactive_follower_pkg/reactive_follower_pkg/reactive_follower_node.hpp\n'}
+[15.727389] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/\n'}
+[15.727460] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg//reactive_follower.launch.py\n'}
+[15.727528] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/\n'}
+[15.727594] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg//reactive_follower.yaml\n'}
+[15.727660] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/ament_index/resource_index/package_run_dependencies/reactive_follower_pkg\n'}
+[15.730929] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/ament_index/resource_index/parent_prefix_path/reactive_follower_pkg\n'}
+[15.731477] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/ament_prefix_path.sh\n'}
+[15.732619] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/ament_prefix_path.dsv\n'}
+[15.734138] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/path.sh\n'}
+[15.734301] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/environment/path.dsv\n'}
+[15.735300] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.bash\n'}
+[15.735869] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.sh\n'}
+[15.738276] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.zsh\n'}
+[15.738728] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/local_setup.dsv\n'}
+[15.741750] (reactive_follower_pkg) StdoutLine: {'line': b'-- Installing: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.dsv\n'}
+[15.747547] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/ament_index/resource_index/packages/reactive_follower_pkg\n'}
+[15.747806] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/cmake/reactive_follower_pkgConfig.cmake\n'}
+[15.747919] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/cmake/reactive_follower_pkgConfig-version.cmake\n'}
+[15.748083] (reactive_follower_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.xml\n'}
+[15.751090] (reactive_follower_pkg) CommandEnded: {'returncode': 0}
+[15.766885] (-) TimerEvent: {}
+[15.842205] (reactive_follower_pkg) JobEnded: {'identifier': 'reactive_follower_pkg', 'rc': 0}
+[15.849626] (-) EventReactorShutdown: {}

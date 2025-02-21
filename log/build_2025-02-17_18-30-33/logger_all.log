@@ -1,0 +1,193 @@
+[0.316s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.316s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fef7a4fadc0>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fef7a4fadc0>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fef7a50b3d0>)
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.482s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.482s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaime/Desktop/f1tenth/sim_ws'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[0.514s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extension 'ignore_ament_install'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extensions ['colcon_pkg']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extension 'colcon_pkg'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extensions ['colcon_meta']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extension 'colcon_meta'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extensions ['ros']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/reactive_follower_pkg) by extension 'ros'
+[0.516s] DEBUG:colcon.colcon_core.package_identification:Package 'src/reactive_follower_pkg' with type 'ros.ament_cmake' and name 'reactive_follower_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.545s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/jaime/Desktop/f1tenth/sim_ws/install
+[0.548s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 289 installed packages in /opt/ros/foxy
+[0.560s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/jaime/Desktop/f1tenth/sim_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'cmake_target' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.626s] Level 5:colcon.colcon_core.verb:set package 'reactive_follower_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.626s] DEBUG:colcon.colcon_core.verb:Building package 'reactive_follower_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg', 'merge_install': False, 'path': '/home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.627s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.629s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.630s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaime/Desktop/f1tenth/sim_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[0.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[0.637s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[0.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[0.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[0.641s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.641s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.661s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg' with build type 'ament_cmake'
+[0.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg'
+[0.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.911s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaime/Desktop/f1tenth/sim_ws/src/f1tenth_gym_ros'
+[0.911s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.911s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg': CMAKE_PREFIX_PATH=/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg
+[1.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/Desktop/f1tenth/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/build install --record /home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/Desktop/f1tenth/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/build install --record /home/jaime/Desktop/f1tenth/sim_ws/build/f1tenth_gym_ros/install.log --single-version-externally-managed install_data
+[1.810s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros' for CMake module files
+[1.811s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros' for CMake config files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/bin'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages'
+[1.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[1.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/bin'
+[1.818s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[1.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[1.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[1.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[1.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[3.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/jaime/Desktop/f1tenth/sim_ws/src/reactive_follower_pkg -DCMAKE_INSTALL_PREFIX=/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg
+[3.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg': CMAKE_PREFIX_PATH=/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg -- -j2 -l2
+[8.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg -- -j2 -l2
+[8.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg': CMAKE_PREFIX_PATH=/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg
+[8.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reactive_follower_pkg)
+[8.933s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg' for CMake module files
+[8.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg' returned '0': CMAKE_PREFIX_PATH=/home/jaime/Desktop/f1tenth/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/jaime/Desktop/f1tenth/sim_ws/build/reactive_follower_pkg
+[8.939s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg' for CMake config files
+[8.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('reactive_follower_pkg', 'cmake_prefix_path')
+[8.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/hook/cmake_prefix_path.ps1'
+[8.939s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/hook/cmake_prefix_path.dsv'
+[8.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/hook/cmake_prefix_path.sh'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/bin'
+[8.940s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/pkgconfig/reactive_follower_pkg.pc'
+[8.941s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/python3.8/site-packages'
+[8.941s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/bin'
+[8.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.ps1'
+[8.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.dsv'
+[8.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.sh'
+[8.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.bash'
+[8.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.zsh'
+[8.944s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/colcon-core/packages/reactive_follower_pkg)
+[8.945s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(reactive_follower_pkg)
+[8.945s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg' for CMake module files
+[8.945s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg' for CMake config files
+[8.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('reactive_follower_pkg', 'cmake_prefix_path')
+[8.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/hook/cmake_prefix_path.ps1'
+[8.947s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/hook/cmake_prefix_path.dsv'
+[8.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/hook/cmake_prefix_path.sh'
+[8.949s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib'
+[8.949s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/bin'
+[8.951s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/pkgconfig/reactive_follower_pkg.pc'
+[8.951s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/lib/python3.8/site-packages'
+[8.951s] Level 1:colcon.colcon_core.environment:checking '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/bin'
+[8.951s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.ps1'
+[8.953s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.dsv'
+[8.955s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.sh'
+[8.958s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.bash'
+[8.959s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/reactive_follower_pkg/package.zsh'
+[8.960s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaime/Desktop/f1tenth/sim_ws/install/reactive_follower_pkg/share/colcon-core/packages/reactive_follower_pkg)
+[8.962s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.963s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.963s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.981s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.011s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/Desktop/f1tenth/sim_ws/install/local_setup.ps1'
+[9.013s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaime/Desktop/f1tenth/sim_ws/install/_local_setup_util_ps1.py'
+[9.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/Desktop/f1tenth/sim_ws/install/setup.ps1'
+[9.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/Desktop/f1tenth/sim_ws/install/local_setup.sh'
+[9.021s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaime/Desktop/f1tenth/sim_ws/install/_local_setup_util_sh.py'
+[9.022s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/Desktop/f1tenth/sim_ws/install/setup.sh'
+[9.026s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/Desktop/f1tenth/sim_ws/install/local_setup.bash'
+[9.028s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/Desktop/f1tenth/sim_ws/install/setup.bash'
+[9.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaime/Desktop/f1tenth/sim_ws/install/local_setup.zsh'
+[9.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaime/Desktop/f1tenth/sim_ws/install/setup.zsh'
